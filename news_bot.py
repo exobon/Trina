@@ -1,3 +1,6 @@
+def main():
+    send_message("✅ TokenTimes bot test successful from GitHub Actions")
+    return
 import requests
 import feedparser
 import re
