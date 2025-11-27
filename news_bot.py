@@ -8,7 +8,7 @@ from urllib.parse import urlparse
 
 # ================== CONFIG ==================
 BOT_TOKEN = "8563113452:AAEwcNSBRnEFNbrD1pgoYPjAtY9-r_AXcnU"
-CHANNEL_ID = "@TokenTimes"      # apne channel ka @username (with @)
+CHANNEL_ID = "@TokenTimes247"      # apne channel ka @username (with @)
 
 SEEN_FILE = "seen_news.txt"
 
