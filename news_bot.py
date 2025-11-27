@@ -10,9 +10,16 @@ CHANNEL_ID = "@TokenTimes247"      # apne channel ka @username (with @)
 SEEN_FILE = "seen_news.txt"
 
 NEWS_FEEDS = [
-    "https://www.coindesk.com/arc/outboundfeeds/rss/",
-    "https://cointelegraph.com/rss",
-    "https://decrypt.co/feed",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/",        # CoinDesk
+    "https://cointelegraph.com/rss",                         # CoinTelegraph
+    "https://decrypt.co/feed",                               # Decrypt
+    "https://news.bitcoin.com/feed/",                        # Bitcoin.com News
+    "https://cryptoslate.com/feed/",                         # CryptoSlate
+    "https://ambcrypto.com/feed/",                           # AMB Crypto
+    "https://www.theblock.co/rss.xml",                       # The Block
+    "https://zycrypto.com/feed/",                            # ZyCrypto
+    "https://u.today/rss",                                   # U.Today
+    "https://www.newsbtc.com/feed/",                         # NewsBTC
 ]
 # ============================================
 
