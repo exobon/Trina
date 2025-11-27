@@ -149,7 +149,8 @@ News : 🧾 {title}
 📄 Summary:
 {summary} 
 
-🔗 Read full article: 🌐 Source: {source}
+🔗 Read full article: 🌐 Source:
+{link}
 
 
 {hashtags}
