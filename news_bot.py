@@ -129,7 +129,7 @@ def main():
         entries = feedparser.parse(feed).entries
 
         # har feed se latest 5 news hi check karenge
-        for item in entries[:5]:
+        for item in entries[:1]:
             uid = item.get("id") or item.get("link")
             if not uid or uid in seen:
                 continue
@@ -147,10 +147,10 @@ def main():
 News : 🧾 {title}
 
 📄 Summary:
-{summary}
+{summary} 
 
-🔗 Read full article:
-{link}
+🔗 Read full article: 🌐 Source: {source}
+
 
 {hashtags}
 ━━━━━━━━━━━━
