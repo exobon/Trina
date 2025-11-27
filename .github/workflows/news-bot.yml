@@ -2,7 +2,7 @@ name: Crypto News Bot
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # har 10 minute safe mode
+    - cron: "*/10 * * * *"   # har 10 minute
   workflow_dispatch:
 
 jobs:
@@ -23,11 +23,3 @@ jobs:
 
       - name: Run News Bot
         run: python news_bot.py
-
-      - name: Save Seen News
-        run: |
-          git config --global user.name "github-bot"
-          git config --global user.email "bot@github.com"
-          git add seen_news.txt
-          git commit -m "update seen news" || echo "No changes"
-          git push
